@@ -1,0 +1,124 @@
+@import "variables";
+
+body {
+  min-height: 100%;
+  min-width: 360px;
+  font-family: $font-primary;
+  font-size: 16px;
+  color: $secondary-blue;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: $white;
+}
+
+.text-md {
+  font-size: 17px;
+  line-height: 1.294;
+}
+.text-lg {
+  font-size: 21px;
+  line-height: 1.2;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+
+
+
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: $font-primary;
+  font-weight: 700;
+}
+
+h1,
+.h1 {
+  font-family: $font-bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  @media (min-width: $md) {
+    font-size: 42px;
+  }
+  @media (min-width: $lg) {
+    font-size: 56px;
+  }
+}
+
+h2,
+.h2 {
+  font-family: $font-bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  @media (min-width: $md) {
+    font-size: 32px;
+  }
+  @media (min-width: $lg) {
+    font-size: 42px;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  @media (min-width: $md) {
+    font-size: 28px;
+  }
+  @media (min-width: $lg) {
+    font-size: 30px;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 16px;
+  @media (min-width: $md) {
+    font-size: 20px;
+  }
+}
+
+h5,
+.h5 {
+
+}
+
+h6,
+.h6 {
+
+}
+
+.h1-hidden {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
+

@@ -1,0 +1,69 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* RESET STYLES */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+@import "variables";
+
+html, body {
+  height: 100%;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body ::selection {
+  color: #fff;
+  background: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: none;
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box
+  }
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+html:not(.touch-screen)::-webkit-scrollbar,
+html:not(.touch-screen) *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html:not(.touch-screen)::-webkit-scrollbar-track,
+html:not(.touch-screen) *::-webkit-scrollbar-track {
+  background: #FFF;
+}
+
+html:not(.touch-screen)::-webkit-scrollbar-thumb,
+html:not(.touch-screen) *::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+:focus, :hover, :active, :visited {
+  outline: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+ul, ol {
+  list-style: none;
+}

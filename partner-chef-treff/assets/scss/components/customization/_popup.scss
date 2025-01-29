@@ -1,0 +1,45 @@
+@import "../../base/variables";
+
+.mfp-container {
+
+}
+
+/**
+ * Fade-zoom animation
+ */
+
+/* start state */
+.my-mfp-zoom-in .mfp-content {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+
+/* animate in */
+.my-mfp-zoom-in.mfp-ready .mfp-content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* animate out */
+.my-mfp-zoom-in.mfp-removing .mfp-content {
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg {
+  background-color: rgba(0,0,0,0);
+  backdrop-filter: blur(0);
+  transition: all 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  background-color: rgba(4, 5, 18, 0.70);
+  backdrop-filter: blur(2.5px);
+}
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  background-color: rgba(0,0,0,0);
+  backdrop-filter: blur(0);
+}

@@ -1,0 +1,245 @@
+@import "variables";
+
+html.overflow-hidden body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.page-wrapper {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 150px;
+  overflow-x: hidden;
+  //overflow-y: clip;
+}
+
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+}
+
+[class*="bg-"] {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center center;
+}
+
+.bg-left {
+  background-position: left center;
+}
+
+.bg-right {
+  background-position: right center;
+}
+
+.bg-top {
+  background-position: center top;
+}
+
+.bg-bottom {
+  background-position: center bottom;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  &::selection {
+    background: transparent;
+  }
+}
+
+a {
+  //display: inline-flex;
+  //color: $primary;
+  transition: $main-transition;
+  text-decoration: none;
+  svg {
+  }
+  &:hover {
+    //color: $primary-light;
+    text-decoration: none;
+  }
+  &.link {
+    display: inline-flex;
+    color: $primary;
+    position: relative;
+    &:before {
+      display: block;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      transition: $main-transition;
+      background-color: $primary-light;
+    }
+    &:hover {
+      color: $primary-light;
+      &:before {
+        width: 100%;
+      }
+      svg {
+        path {
+          fill: $primary-light;
+        }
+      }
+    }
+  }
+}
+
+
+// Containers
+.cn-fluid {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.cn {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 0;
+  @media (min-width: $sm) {
+    max-width: 540px;
+  }
+  @media (min-width: $md) {
+    max-width: 720px;
+  }
+  @media (min-width: $lg) {
+    max-width: 960px;
+  }
+  @media (min-width: $xl) {
+    max-width: 1200px;
+  }
+}
+
+.cn--sm {
+  @media (min-width: $sm) {
+    max-width: 540px;
+  }
+  @media (min-width: $md) {
+    max-width: 720px;
+  }
+  @media (min-width: $lg) {
+    max-width: 960px;
+  }
+  @media (min-width: $xl) {
+    max-width: 1200px;
+  }
+}
+
+.cn--md {
+  @media (min-width: $sm) {
+    max-width: 540px;
+  }
+  @media (min-width: $md) {
+    max-width: 720px;
+  }
+  @media (min-width: $lg) {
+    max-width: 960px;
+  }
+  @media (min-width: $xl) {
+    max-width: 1200px;
+  }
+  @media (min-width: $xxl) {
+    max-width: 1440px;
+  }
+}
+
+.cn--lg {
+  @media (min-width: $sm) {
+    max-width: 540px;
+  }
+  @media (min-width: $md) {
+    max-width: 720px;
+  }
+  @media (min-width: $lg) {
+    max-width: 960px;
+  }
+  @media (min-width: $xl) {
+    max-width: 1200px;
+  }
+  @media (min-width: $xxl) {
+    max-width: 1440px;
+  }
+  @media (min-width: $xxxl) {
+    max-width: 1680px;
+  }
+}
+
+// Visibility
+.hidden-mobile {
+  display: none;
+  @media (min-width: $lg) {
+    display: block;
+  }
+}
+
+.hidden-desktop {
+  display: block;
+  @media (min-width: $lg) {
+    display: none;
+  }
+}
+
+.woocommerce {
+  nav.woocommerce-pagination {
+    margin-top: 64px;
+    ul.page-numbers {
+      display: inline-flex;
+      gap: 16px;
+
+      float: none;
+      border: none;
+      li {
+        float: none;
+        border: none;
+        .page-numbers {
+          display: flex;
+          height: 32px;
+          min-width: 32px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          color: $primary;
+          //flex-shrink: 0;
+          border-radius: 4px;
+          border: 2px solid  rgba(25, 25, 84, 0.08);
+          &.current {
+            background-color: $primary;
+            border-color: $primary;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.error404 {
+  h1 {
+    text-align: center;
+  }
+}

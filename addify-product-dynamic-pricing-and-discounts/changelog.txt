@@ -1,0 +1,36 @@
+*** Product Dynamic Pricing and Discounts Change log ***
+
+2024-10-01 - version 1.2.0
+* Add - Multiple template designs for pricing details on product page.
+* Add - Implemented dynamic price display on the product page that changes based on the quantity selected by the user.
+
+2024-04-02 - version 1.1.1
+* Fix - Fixed bug with Cart Discount Rule.
+
+2024-01-23 - version 1.1.0
+* Update - Compatible with WooCommerce High-Performance Order Storage (HPOS).
+* Fix - Fixed Security Vulnerabilities.
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+
+2023-03-24 - version 1.0.6
+* Fix - Fixed bug with product pricing table for guest users.
+
+2022-04-27 - version 1.0.5
+* Add - Allow decimal input for values.
+
+2022-04-14 - version 1.0.4
+* Fix - Fixed menu expand issue under WooCommerce and Products.
+
+2022-04-08 - version 1.0.3
+* Fix - Fixed menu links issue under WooCommerce and Products.
+
+2022-04-07 - version 1.0.2
+* Add - Added menu links under WooCommerce and Products.
+
+2022-03-14 - version 1.0.1
+* Other - Menu links chagnes.
+* Fix - Typo Fixes.
+
+
+2022-01-04 - version 1.0.0
+* Other - Initial release of the plugin.

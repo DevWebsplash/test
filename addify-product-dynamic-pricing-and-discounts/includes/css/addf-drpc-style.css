@@ -1,0 +1,206 @@
+.addf_drpc_horizontal_tbl{
+	width: 100%;
+}
+.addf_drpc_horizontal_tbl td{
+	min-width: 90px;
+	padding: 3px 0px;
+	text-align: center;
+	border: 2px solid #eae7e7;
+}
+.addf_drpc_horizontal_tbl tr td:first-child{
+	position: sticky;
+	left: 0;
+}
+.addf_drpc_horizontal_tbl_div{
+	margin-bottom: 20px;
+	overflow-x: auto;
+	width: 100%;
+}
+/* .addf_drpc_vertical_tbl_div{
+	max-height: 400px;
+	overflow-y: auto;
+	margin-bottom: 20px;
+} */
+.addf_drpc_vertical_tbl{
+	width: 100%;
+}
+.addf_drpc_vertical_tbl th,addf_drpc_table_div
+.addf_drpc_vertical_tbl td{
+	text-align: center;
+}
+.addf_drpc_vertical_tbl tr:first-child{
+	position: sticky;
+	top: 0;
+}
+.addf_disc_rpc_variation_tbl_class{
+	display: none;
+}
+.af-price-tbl-btn-space{
+	height: 30px;
+}
+
+
+/* Pricing Template css */
+
+.addf_drpc_template_header{
+    display: flex;
+    column-gap: 15px;
+    padding-left: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.addf_drpc_deals_icon{
+    width: 32px;
+    height: 32px;
+}
+
+.addf_drpc_template_header h2{
+    margin: 0px;
+    font-weight: bold;
+}
+
+.addf_drpc_card_div{
+    max-width: 530px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-column-gap: 4%;
+    padding: 0px 6px;
+    grid-row-gap: 10px;
+    margin-bottom: 15px;
+}
+.addf_drpc_card_div:hover{
+    cursor: pointer;
+}
+.addf_drpc_inner_small_box {
+    max-width: 230px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.addf_drpc_card_inner_heading {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.addf_drpc_sale_tag {
+    background-color: red;
+    color: white;
+    padding: 3px 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.addf_drpc_offer_data_contianer{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: grid;
+    grid-template-columns: 41% 52%;
+    column-gap: 12%;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+.addf_drpc_card_inner_text p{
+    margin: 0px 0px 3px 0px;
+}
+
+.addf_drpc_card_inner_text del,
+.addf_drpc_list_price_text del,
+.addf_drpc_no_discount{
+    color: #ada6a6;
+}
+
+.addf_drpc_list_div{
+    margin-bottom: 20px;
+}
+
+.addf_drpc_list_inner_container{
+    display: grid;
+    grid-template-columns: 3% 64% 28%;
+    box-sizing: border-box;
+    align-items: center;
+    column-gap: 3%;
+}
+
+.addf_drpc_list_inner_container:hover{
+    cursor: pointer;
+}
+
+.addf_drpc_list_box{
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 12px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.addf_drpc_list_price_text p{
+    margin: 0px;
+}
+
+
+.addf_drpc_list_inner_container .heading {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.addf_drpc_table_div table{
+    width: auto;
+}
+
+.addf_drpc_table_div table thead tr th{
+    width: 25%;
+}
+
+.addf_drpc_table_div table th{
+    padding: 8px 15px;
+}
+
+.addf_drpc_table_div table td
+{
+
+    padding: 3px 25px
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .addf_drpc_table_div table thead tr th{
+        width: 10%;
+    }
+
+    .responsive table th{
+        padding: 8px 10px;
+    }
+    
+    .responsive table td
+    {
+    
+        padding: 3px 10px
+    }
+
+    .addf_drpc_card_div{
+         grid-template-columns: 48% 48%
+    }
+
+    .addf_drpc_inner_small_box {
+        max-width: 90%;
+    }
+
+    .addf_drpc_list_inner_container {
+        grid-template-columns: 8% 50% 26%;
+        column-gap: 4%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .addf_drpc_card_div{
+        grid-template-columns: 100%
+   }
+}

@@ -1,0 +1,175 @@
+@import "../base/variables";
+
+body.logged-in:not(.customer) {
+  //padding-top: 36px;
+  .header {
+    top: 36px;
+    &__nav {
+      top: 102px;
+    }
+  }
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 4px 0;
+  background-color: $white;
+  border-bottom: 1px solid #F3F4F6;
+  z-index: 15;
+  @media (min-width: $md) {
+    padding: 8px 0;
+  }
+  @media (min-width: $lg) {
+    border-bottom: none;
+    padding: 16px 0;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    height: 64px;
+    @media (min-width: $lg) {
+      //height: auto;
+    }
+  }
+
+  &__logo {
+    flex-shrink: 0;
+    width: 80px;
+    margin-right: auto;
+    @media (min-width: $sm) {
+      //width: 163px;
+    }
+    @media (min-width: $lg) {
+      margin-right: 0;
+    }
+    @media (min-width: $xl) {
+      //width: 209px;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__nav {
+    display: none;
+    position: fixed;
+    top: 76px;
+    left: 0;
+
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid $primary-light;
+    //right: 0;
+    //bottom: 0;
+  }
+
+  .main-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__action {
+    text-align: right;
+    @media (max-width: $md - 1) {
+      font-size: 14px;
+    }
+    .btn {
+      padding: 4px 16px;
+      @media (min-width: $lg) {
+        padding: 6px 32px;
+      }
+      @media (max-width: $md - 1) {
+        height: 32px;
+      }
+    }
+    strong {
+      @media (max-width: $sm - 1) {
+        display: none;
+      }
+    }
+    .username {
+      color: $primary;
+      font-weight: 700;
+      @media (max-width: $sm - 1) {
+        display: none;
+      }
+    }
+    .text {
+      padding: 0 0 0 16px;
+    }
+
+    .btn {
+      margin-left: 16px;
+    }
+  }
+}
+
+.toggle-menu {
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 21px;
+  @media (min-width: $lg) {
+    //display: none;
+  }
+  &.active {
+    &:before,
+    &:after {
+      top: 9px;
+      opacity: 0;
+      transition-delay: 0s;
+    }
+    span {
+      transition-delay: .3s;
+      &:first-child {
+        transform: rotate(-45deg);
+      }
+      &:last-child {
+        transform: rotate(45deg);
+      }
+    }
+  }
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: $secondary-blue;
+    transition: $main-transition;
+    transition-delay: .3s;
+  }
+  &:before {
+    top: 0;
+  }
+  &:after {
+    top: 18px;
+  }
+  span {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: $secondary-blue;
+    transition: $main-transition;
+  }
+}

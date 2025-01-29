@@ -1,0 +1,38 @@
+/*preloader*/
+#loader-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: #fff;
+}
+
+// --------------------------------------------------
+// base
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/base';
+@import 'base/buttons';
+@import 'base/typography';
+@import 'base/form';
+
+// --------------------------------------------------
+// components
+//@import 'components/magnific-popup';
+@import 'components/swiper-bundle.min';
+//@import 'components/customization/popup';
+@import 'components/customization/slider';
+
+// --------------------------------------------------
+// layout
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+
+// --------------------------------------------------
+// views
+@import 'views/home-page';
+@import 'views/layout';

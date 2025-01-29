@@ -1,0 +1,1127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Dynamic Pricing and Discounts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-09 06:08+0000\n"
+"PO-Revision-Date: 2024-09-09 06:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: woo-af-drpc"
+
+#: admin/metaboxes/product-rule/disc-rpc-messages-settings.php:35
+msgid ""
+"\t Use {product_name} for product name , {req_qty} for required quantity to "
+"get discount  , {discount} \n"
+"\t\t\t\t\t\tfor discount amount , {start_date} for start date of discount "
+"rule , {end_date} for ending of discount rule, {gift_product}\n"
+"\t\t\t\t\t\tfor gift products in conditional discount and {min_spent_amount} "
+"for informing user about min spent amount to get discount \n"
+"\t\t\t\t\t\tfrom rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:120
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:280
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:107
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:293
+msgid ")"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:133
+msgid "Above \"Add to Cart \" button"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:247
+msgid "Add Cart Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:246
+msgid "Add New Cart Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:211
+msgid "Add New Product Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:212
+msgid "Add Product Rule"
+msgstr ""
+
+#. Author of the plugin
+msgid "Addify"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:87
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:166
+msgid "Adjustment Type"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:246
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:347
+msgid "Adjustment Type "
+msgstr ""
+
+#: admin/class-af-discount-admin.php:164
+msgid "All Cart Rules"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:32
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:34
+msgid "All days"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:155
+msgid "All Product Rules"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:13
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:13
+msgid "All Products"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:552 admin/class-af-discount-admin.php:604
+#: admin/class-af-discount-admin.php:666 admin/class-af-discount-admin.php:761
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:191
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:350
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:169
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:387
+msgid "All User Roles"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:16
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:16
+msgid "Amount spent up till now"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:85
+msgid "Apply all rules"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:105
+msgid "Apply discount from both rules"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:95
+msgid "Apply discount on regular price"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:94
+msgid "Apply discount on sale price"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:106
+msgid "Apply discount only from product rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:21
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:21
+msgid "Apply this rule must"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:134
+msgid "Below \"Add to Cart \" button"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:132
+msgid "Below price of product"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:171
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:229
+msgid "Card"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:377
+msgid "Card Background Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:369
+msgid "Card Border Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:385
+msgid "Card Text Color"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:244 dynamic-pricing-and-discounts.php:245
+#: admin/class-af-discount-admin.php:126
+#: admin/settings/class-admin-drpc-settings.php:40
+msgid "Cart Discount Rules"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:256 admin/class-af-discount-admin.php:175
+#: admin/class-af-discount-admin.php:176
+msgid "Cart Discounts Rules"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:218
+msgid "Check if you want to show pricing template on product page"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:19
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:19
+msgid "Choose a method for minimum amount spent by user to get discount"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:381
+msgid "Choose Card background color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:373
+msgid "Choose Card border color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:389
+msgid "Choose Card text color."
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:64
+msgid "Choose categories for cart rule"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:65
+msgid "Choose categories for product rule"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:474 admin/class-af-discount-admin.php:718
+#: admin/class-af-discount-admin.php:818 admin/class-af-discount-admin.php:865
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:114
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:190
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:274
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:349
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:101
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:287
+msgid "Choose Customer... "
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:341
+msgid "Choose List background color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:333
+msgid "Choose List border color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:349
+msgid "Choose List text color."
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:224
+msgid "Choose pricing template"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:233
+msgid "Choose pricing template for product page"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:45
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:45
+msgid "Choose product categories"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:9
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:9
+msgid "Choose product selection method"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:17
+msgid "Choose product selection method for cart rule"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:17
+msgid "Choose product selection method for product rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:22
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:22
+msgid "Choose products"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:26
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:26
+msgid "Choose Products..."
+msgstr ""
+
+#: admin/class-af-discount-admin.php:478 admin/class-af-discount-admin.php:566
+#: admin/class-af-discount-admin.php:680 admin/class-af-discount-admin.php:721
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:288
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:364
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:115
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:183
+msgid "Choose products..."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:413
+msgid "Choose Sale Tag Background Color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:421
+msgid "Choose Sale Tag Text Color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:397
+msgid "Choose Selected Card border color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:357
+msgid "Choose Selected List background color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:365
+msgid "Choose Selected List text color."
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:40
+msgid "Choose specific products for cart rule"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:40
+msgid "Choose specific products for product rule"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:308
+msgid "Choose table border color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:284
+msgid "Choose table even rows background color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:292
+msgid "Choose table even rows text color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:252
+msgid "Choose table header background color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:260
+msgid "Choose table header text color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:268
+msgid "Choose table odd rows background color."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:276
+msgid "Choose table odd rows text color."
+msgstr ""
+
+#: admin/class-af-discount-admin.php:665 admin/class-af-discount-admin.php:760
+msgid "Choose user role... "
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:79
+msgid "Customer"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:84
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:244
+msgid "Customers"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:243
+msgid "Customers "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:28
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:30
+msgid "Days for discount"
+msgstr ""
+
+#: front/class-af-cart-discount-front.php:658
+msgid "Discount"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:237 admin/class-af-discount-admin.php:268
+msgid "Discount Adjustments"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:64
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:61
+msgid "Discount rule type"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:231 admin/class-af-discount-admin.php:262
+msgid "Discount Settings"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:69
+msgid "Dynamic Adjustment Based on Cart Amount"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:68
+msgid "Dynamic Adjustment Based on Cart Quantity"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:24
+msgid "Dynamic Pricing"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:222 dynamic-pricing-and-discounts.php:257
+msgid "Dynamic Pricing & Discounts"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:65
+msgid "Dynamic pricing adjustment"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:248
+msgid "Edit Cart Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:213
+msgid "Edit Product Rule"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:300
+msgid "Enable if do you want to use table border as a separator."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:401
+msgid "Enable Sale Tag"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:405
+msgid "Enable Sale tag for card."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:240
+msgid "Enable Save Column"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:244
+msgid "Enable save column in pricing table."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:296
+msgid "Enable Table Border"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:186
+msgid "Enable Template Heading"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:207
+msgid "Enable Template Icon"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:189
+msgid "Enable the heading for template."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:210
+msgid "Enable the icon for template."
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:111
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:117
+msgid "End Date OF Rule"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:906
+msgid "End Date of rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-messages-settings.php:33
+msgid ""
+"Enter congratulation message which will show to when discount is applied"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-messages-settings.php:32
+msgid ""
+"Enter congratulation message which will show to when discount is applied."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:232
+msgid "Enter Font Family for Template"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:316
+msgid ""
+"Enter font size for table header, by default theme values will be inherted."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:324
+msgid ""
+"Enter font size for table rows, by default theme values will be inherted."
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:203
+msgid ""
+"Enter font size for template heading, by default theme values will be "
+"inherted."
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-messages-settings.php:14
+msgid ""
+"Enter message which will show to inform user about remaining discount "
+"requirement to avail discount"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-messages-settings.php:14
+msgid ""
+"Enter message which will show to inform user about remaining discount "
+"requirement to avail discount. "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:29
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:29
+msgid "Enter minimum amount spent by user to get discount"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:196
+msgid "Enter template heading text."
+msgstr ""
+
+#: front/class-af-front-ajax-controller.php:20
+msgid "Failed security check!"
+msgstr ""
+
+#: front/class-af-cart-discount-front.php:660
+msgid "Fees"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:621 admin/class-af-discount-admin.php:777
+#: admin/class-af-discount-admin.php:823 admin/class-af-discount-admin.php:871
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:130
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:207
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:304
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:404
+msgid "Fixed decrease"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:620 admin/class-af-discount-admin.php:776
+#: admin/class-af-discount-admin.php:822 admin/class-af-discount-admin.php:870
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:129
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:206
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:303
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:403
+msgid "Fixed increase"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:619 admin/class-af-discount-admin.php:869
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:302
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:402
+msgid "Fixed price "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:20
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:20
+msgid "Follow sequence"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:951
+msgid "Follow Sequence "
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:71
+#: admin/settings/class-admin-drpc-settings.php:82
+msgid "Follow the priority sequence"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:76
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:80
+msgid "Friday"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:120 admin/class-af-discount-admin.php:136
+#: admin/settings/class-admin-drpc-settings.php:36
+#: admin/settings/class-admin-drpc-settings.php:59
+msgid "General Settings"
+msgstr ""
+
+#: front/class-af-cart-discount-front.php:884
+#: front/class-af-cart-discount-front.php:895
+msgid "Gift "
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:66
+msgid "Gift a Product"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:71
+msgid "Gift a Product based on Amount"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:70
+msgid "Gift a Product based on Quantity"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:247
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:321
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:82
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:146
+msgid "Gift Product"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:250
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:324
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:85
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:149
+msgid "Gift Quantity"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:562 admin/class-af-discount-admin.php:614
+#: admin/class-af-discount-admin.php:676 admin/class-af-discount-admin.php:771
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:201
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:360
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:179
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:397
+msgid "Guest"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:144
+msgid "Horizontal table"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woocommerce.com/products/product-dynamic-pricing-and-discounts/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/vendor/addify/"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:15
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:15
+msgid "Ignore amount spend by user"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:96
+msgid "Ignore discount"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:138
+msgid "Layout of tier table pricing"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:172
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:230
+msgid "List"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:337
+msgid "List Background Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:329
+msgid "List Border Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:345
+msgid "List Text Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:127
+msgid "Location for tier pricing template"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:255
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:356
+msgid "Max (Qty) "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:96
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:175
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:256
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:330
+msgid "Max Required"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-messages-settings.php:28
+#: admin/metaboxes/product-rule/disc-rpc-messages-settings.php:27
+msgid "Message for after discount applied"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-messages-settings.php:9
+#: admin/metaboxes/product-rule/disc-rpc-messages-settings.php:9
+msgid "Message for before discount applied"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:249
+msgid "Message Settings"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:280
+msgid "Messages Settings"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:88
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:152
+msgid "Min (Qty)"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:252
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:353
+msgid "Min (Qty) "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:93
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:172
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:253
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:327
+msgid "Min Required"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:11
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:11
+msgid "Minimum spent"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:25
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:25
+msgid "Minimum spent amount by user"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:45
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:45
+msgid "Minimum spent amount end date"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:35
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:35
+msgid "Minimum spent amount start date"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:43
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:47
+msgid "Monday"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:100
+msgid "Multi rules selection"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:943
+msgid "Must Apply "
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:182
+msgid ""
+"must be active for this plugin to work. Please install &amp; activate "
+"WooCommerce."
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:249
+msgid "New Cart Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:214
+msgid "New Product Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:218 dynamic-pricing-and-discounts.php:253
+msgid "No rule found"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:219 dynamic-pricing-and-discounts.php:254
+msgid "No rule found in trash"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Offer free gifts, adjust product prices, offer cart level discounts based on "
+"order quantity, amount, user roles and more."
+msgstr ""
+
+#: admin/class-af-discount-admin.php:623 admin/class-af-discount-admin.php:779
+#: admin/class-af-discount-admin.php:825 admin/class-af-discount-admin.php:873
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:132
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:209
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:306
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:406
+msgid "Percentage decrease"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:622 admin/class-af-discount-admin.php:778
+#: admin/class-af-discount-admin.php:824 admin/class-af-discount-admin.php:872
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:131
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:208
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:305
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:405
+msgid "Percentage increase"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:89
+msgid "Price for sale price products"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:166
+msgid "Pricing Design Template "
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:38
+#: admin/settings/class-admin-drpc-settings.php:156
+msgid "Pricing Template Design"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:37
+#: admin/settings/class-admin-drpc-settings.php:120
+msgid "Pricing Template Settings"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:77
+msgid "Priority of cart rules"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:65
+msgid "Priority of product rules"
+msgstr ""
+
+#. Name of the plugin
+msgid "Product Dynamic Pricing and Discounts"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:182
+msgid "Product Dynamic Pricing and Discounts is inactive."
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:209 dynamic-pricing-and-discounts.php:210
+#: dynamic-pricing-and-discounts.php:221 admin/class-af-discount-admin.php:142
+#: admin/class-af-discount-admin.php:184 admin/class-af-discount-admin.php:185
+#: admin/settings/class-admin-drpc-settings.php:39
+msgid "Product Pricing Rules"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:359
+msgid "Replace Price"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:258
+msgid "Replace price"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:425
+msgid "Reset"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:223 dynamic-pricing-and-discounts.php:258
+#: admin/class-af-discount-admin.php:907
+msgid "Rule order"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:16
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:16
+msgid "Rule priority"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:908
+msgid "Rule priority "
+msgstr ""
+
+#: admin/class-af-discount-admin.php:243 admin/class-af-discount-admin.php:274
+msgid "Rule Settings"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:409
+msgid "Sale Tag Background Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:417
+msgid "Sale Tag Text Color"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:84
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:88
+msgid "Saturday"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:251
+msgid "Search Cart Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:216
+msgid "Search Product Rule"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:357 admin/class-af-discount-admin.php:387
+msgid "Security Violated !"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:68
+msgid "Select a type for product and users for discount"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:73
+msgid "Select a type for products and users for discount in cart"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:38
+msgid "Select days setting for this rule "
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:238
+msgid "Select discounts for specific customers "
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:340
+msgid "Select discounts for user roles "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:115
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:121
+msgid "Select end Date for discount on products"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:49
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:49
+msgid "Select end date of minimum amount spent by user to get discount"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:138
+msgid "Select gift products for user roles"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:74
+msgid "Select gift products in table for specific users"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:24
+msgid "Select priority for this rule "
+msgstr ""
+
+#: admin/class-af-discount-admin.php:225 admin/class-af-discount-admin.php:256
+msgid "Select Product and Categories"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:100
+msgid "Select specific days for rule. "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:17
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:17
+msgid "Select start and end date"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:105
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:111
+msgid "Select start Date for discount on products"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/discount-rpc-customer-spent.php:39
+#: admin/metaboxes/product-rule/discount-rpc-customer-spent.php:39
+msgid "Select start date of minimum amount spent by user to get discount"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:393
+msgid "Selected Card Border Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:353
+msgid "Selected List Background Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:361
+msgid "Selected List Text Color"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:212
+msgid "Show Pricing Template"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:436 admin/class-af-discount-admin.php:467
+#: admin/class-af-discount-admin.php:506 admin/class-af-discount-admin.php:544
+#: admin/class-af-discount-admin.php:595 admin/class-af-discount-admin.php:658
+#: admin/class-af-discount-admin.php:711 admin/class-af-discount-admin.php:753
+#: admin/class-af-discount-admin.php:811 admin/class-af-discount-admin.php:857
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:33
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:35
+msgid "Specific days"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-choose-products.php:14
+#: admin/metaboxes/product-rule/disc-rpc-choose-products.php:14
+msgid "Specific Products"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:235
+msgid ""
+"Specify the font family for the template text, or leave it blank to use the "
+"website's default font family."
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:101
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:107
+msgid "Start Date of Rule"
+msgstr ""
+
+#: admin/class-af-discount-admin.php:905
+msgid "Start Date of rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:92
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:96
+msgid "Sunday"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:170
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:228
+msgid "Table"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:304
+msgid "Table Border Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:280
+msgid "Table Even Rows Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:288
+msgid "Table Even Rows Text Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:248
+msgid "Table Header Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:312
+msgid "Table Header Font Size"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:256
+msgid "Table Header Text Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:264
+msgid "Table Odd Rows Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:272
+msgid "Table Odd Rows Text Color"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:320
+msgid "Table Rows Font Size"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:200
+msgid "Template Heading Font Size"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:193
+msgid "Template Heading Text"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:216
+msgid "Template Icon"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:67
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:71
+msgid "Thursday"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:428
+msgid "To revert all settings to default."
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:51
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:55
+msgid "Tuesday"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-messages-settings.php:37
+msgid ""
+"Use  {cart_qty} for current cart quantity / price, {product_names} for "
+"product names of selected in cart , \n"
+"\t\t\t\t\t\t{rem_qty} for remaining quantity to get discount,  {start_date} "
+"for start date of discount rule , {end_date} for \n"
+"\t\t\t\t\t\tending of discount rule, {gift_products} for gift products in "
+"conditional discount,  {rec_discount} for the discount\n"
+"\t\t\t\t\t\t user have received and {min_spent_amount} for informing  user "
+"about min spent amount to get discount from rule"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:84
+msgid "Use rule with highest Discount/Fees"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:73
+msgid "Use rule with highest price"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:83
+msgid "Use rule with smaller Discount/Fees"
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:72
+msgid "Use rule with smaller price"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-messages-settings.php:17
+msgid ""
+"Use {product_name} for product name , {product_qty} for current product "
+"quantity , {rem_qty} for \n"
+"\t\t\t\t\t\tremaining quantity to get discount , {discount} for discount "
+"amount , {start_date} for start date of discount rule , {end_date} for \n"
+"\t\t\t\t\t\tending of discount rule {gift_product} for gift products in "
+"conditional discount and {min_spent_amount}\n"
+"\t\t\t\t\t\tfor informing user about min spent amount to get discount from "
+"rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-messages-settings.php:18
+msgid ""
+"Use {req_products} for required products, {cart_qty} for current cart "
+"quantity / price, \n"
+"\t\t\t\t\t{product_names} for product names of selected in cart , {rem_qty} "
+"for remaining quantity to get discount \n"
+"\t\t\t\t\t, {start_date} for start date of discount rule , {end_date} for "
+"ending of discount rule  and {min_spent_amount} \n"
+"\t\t\t\t\tfor informing user about min spent amount to get discount from rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:163
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:143
+msgid "User Role"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:344
+msgid "User Role "
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:318
+msgid "User Roles"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:90
+#: admin/metaboxes/cart-rule/disc-rpc-discount-settings.php:169
+msgid "Value"
+msgstr ""
+
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:249
+#: admin/metaboxes/product-rule/disc-rpc-discount-settings.php:350
+msgid "Value "
+msgstr ""
+
+#: admin/settings/class-admin-drpc-settings.php:143
+msgid "Vertical table"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:250
+msgid "View Cart Rule"
+msgstr ""
+
+#: dynamic-pricing-and-discounts.php:215
+msgid "View Product Rule"
+msgstr ""
+
+#: admin/metaboxes/cart-rule/disc-rpc-rule-settings.php:59
+#: admin/metaboxes/product-rule/disc-rpc-rule-settings.php:63
+msgid "Wednesday"
+msgstr ""
+
+#: front/class-af-cart-discount-front.php:896
+msgid "With Cart Products "
+msgstr ""

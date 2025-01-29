@@ -1,0 +1,58 @@
+// Background & Colors
+$white: #fff;
+$black: #000;
+
+$primary: #E71869;
+$primary-light: #FF66A1;
+$primary-dark: #981B4B;
+$secondary-dark: #98761B;
+$secondary-blue: #191954;
+$secondary-blue-2: rgba(25, 25, 84, 0.60);
+
+// Fonts
+$font-primary: 'Poppins', sans-serif;
+$font-bold: 'THE-BOLD-FONT', sans-serif;
+
+.poppins-regular {
+  font-family: $font-primary;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: $font-primary;
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Media Queries Breakpoints
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1220px;
+$xxl: 1460px;
+$xxxl: 1700px;
+
+
+// Transition
+$main-transition: all .3s ease-out;
+
+// Text overflow
+@mixin text-overflow($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/*.tag-example {
+  @include text-overflow(3);
+}*/
+
+/*img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}*/

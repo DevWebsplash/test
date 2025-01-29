@@ -1,0 +1,156 @@
+@import "variables";
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  transition: $main-transition;
+  text-decoration: none;
+  background: none;
+  padding: 6px 32px;
+  height: 40px;
+  cursor: pointer;
+  @media (max-width: $md - 1) {
+    font-size: 14px;
+  }
+  &--primary {
+    color: $white;
+    background-color: $primary;
+    border: 2px solid $primary;
+
+    &:hover {
+      color: $white;
+      border-color: $primary-light;
+      background-color: $primary-light;
+    }
+
+    &:disabled {
+      background: rgba(25, 25, 84, 0.08);
+      border-color: rgba(25, 25, 84, 0.08);
+      color: rgba(25, 25, 84, 0.32);
+    }
+  }
+}
+
+.myAccount-login-page form.woocommerce-ResetPassword .button,
+.woocommerce .woocommerce-MyAccount-content .woocommerce-Button,
+.woocommerce form.cart .single_add_to_cart_button,
+.woocommerce .woocommerce-form-register .woocommerce-form-register__submit,
+.woocommerce .woocommerce-form-login .button,
+.woocommerce .woocommerce-form-register__submit,
+.woocommerce div.product form.cart .button,
+.woocommerce .save_changes,
+.woocommerce ul.products li.product .button,
+.woocommerce .popup-modal-content .modal-popup-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 32px;
+  height: 40px;
+  cursor: pointer;
+  color: $white;
+  font-weight: 400;
+  background-color: $primary;
+  border: 2px solid $primary;
+  transition: $main-transition;
+
+  &:hover {
+    color: $white;
+    border-color: $primary-light;
+    background-color: $primary-light;
+  }
+
+  &:disabled {
+    background: rgba(25, 25, 84, 0.08);
+    border-color: rgba(25, 25, 84, 0.08);
+    color: rgba(25, 25, 84, 0.32);
+  }
+}
+
+.woocommerce .save_changes {
+  min-width: 190px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  input[type="submit"] {
+    color: #ffffff;
+  }
+}
+
+.woocommerce .add_product {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  width: auto;
+  min-width: 190px;
+  cursor: pointer;
+  color: $primary;
+  font-weight: 400;
+  background-color: $white;
+  border: 2px solid $primary;
+  transition: $main-transition;
+
+  &:hover {
+    color: $white;
+    border-color: $primary-light;
+    background-color: $primary-light;
+  }
+
+  &:disabled {
+    background: rgba(25, 25, 84, 0.08);
+    border-color: rgba(25, 25, 84, 0.08);
+    color: rgba(25, 25, 84, 0.32);
+  }
+}
+
+
+.woocommerce .popup-modal-content .modal-popup-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px 32px;
+  height: 40px;
+  cursor: pointer;
+  color: $white!important;
+  font-weight: 400;
+  background-color: $primary!important;
+  border: 2px solid $primary;
+  transition: $main-transition;
+
+  &:hover {
+    color: $white!important;
+    border-color: $primary-light;
+    background-color: $primary-light!important;
+  }
+
+  &:disabled {
+    background: rgba(25, 25, 84, 0.08)!important;
+    border-color: rgba(25, 25, 84, 0.08);
+    color: rgba(25, 25, 84, 0.32)!important;
+  }
+}

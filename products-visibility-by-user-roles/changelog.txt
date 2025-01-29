@@ -1,0 +1,69 @@
+*** Products Visibility by User Roles Change log ***
+
+2024-09-10 - version 1.5.1
+* Fix - Fixed critical error on frontend after updating to version 1.5.0.
+
+2024-09-09 - version 1.5.0
+* Update - Compatibale with WooCommerce cart and checkout blocks.
+
+2024-06-27 - version 1.4.2
+* Fixed - Fixed bug with archive page.
+* Fixed - Fixed errors and warnings in admin panel.
+
+2024-05-30 - version 1.4.1
+* Fixed - Fixed errors and warnings.
+
+2023-10-16 - version 1.4.0
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+* Fixed - Fixed but with widget categories.
+
+2023-05-23 - version 1.3.2
+* Fixed - Fixed bug with products removing from cart.
+* Update - Compatible with WooCommerce High-Performance Order Storage (HPOS).
+
+2023-04-19 - version 1.3.1
+* Update - Added compatibility for customers having multiple user roles.
+* Fixed - Fixed bug with products removing from cart.
+
+2023-04-17 - version 1.3.0
+* Fixed - Automatically remove hidden product from cart.
+
+2023-04-04 - version 1.2.9
+* Fixed - Issue fixed with product visibility for guest users.
+
+2023-03-21 - version 1.2.8
+* Fixed - Fixed current user role issue.
+
+2022-09-08 - version 1.2.7
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+
+2021-03-15 - version 1.2.6
+* Fix - Custom page redirect issue.
+* Other - WPML compatible.
+
+2021-02-02 - version 1.2.5
+* Update - Optimize speed.
+* Update - Improved compatibility with product shortcode.
+
+2020-05-05 - version 1.2.4
+* Fix - Issue fixed with blog posts.
+* New - Option to redirect on custom URL.
+
+2020-04-26 - version 1.2.3
+* Fix - Issue fixed with enable global visibility checkbox.
+
+2020-04-07 - version 1.2.2
+* Fix - Issue with show products for guest users.
+
+2020-03-29 - version 1.2.1
+* Fix - Fix CSS conflict with drop downs in admin panel.
+
+2020-03-26 - version 1.2.0
+* Fix - A Small issue fixed with products visibility by user roles.
+
+2020-03-06 - version 1.1.0
+* Fix - Some typo fixes.
+
+2020-02-08 - version 1.0.0
+* Other - Initial release of the plugin.
+
